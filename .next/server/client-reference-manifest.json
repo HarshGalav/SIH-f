@@ -56,6 +56,14 @@
         "async": false
       }
     },
+    "(app-client)/./components/movies-container.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/movies-container.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./components/client.tsx": {
       "*": {
         "id": "(sc_client)/./components/client.tsx",
@@ -67,62 +75,6 @@
     "(app-client)/./node_modules/next/dist/client/script.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/script.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./components/movies-container.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/movies-container.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./components/movie/checkout.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/movie/checkout.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./components/movie/movie-container.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/movie/movie-container.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./components/movie/movie-header.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/movie/movie-header.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./lib/revalidate.ts": {
-      "*": {
-        "id": "(sc_client)/./lib/revalidate.ts",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
         "name": "*",
         "chunks": [],
         "async": false
@@ -291,6 +243,14 @@
       ],
       "async": false
     },
+    "/Users/harsh/Desktop/projects/SIHH/cinema/components/movies-container.tsx": {
+      "id": "(app-client)/./components/movies-container.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(app)/page:static/chunks/app/(app)/page.js"
+      ],
+      "async": false
+    },
     "/Users/harsh/Desktop/projects/SIHH/cinema/components/client.tsx": {
       "id": "(app-client)/./components/client.tsx",
       "name": "*",
@@ -314,86 +274,18 @@
         "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
-    },
-    "/Users/harsh/Desktop/projects/SIHH/cinema/components/movies-container.tsx": {
-      "id": "(app-client)/./components/movies-container.tsx",
-      "name": "*",
-      "chunks": [
-        "app/(app)/page:static/chunks/app/(app)/page.js"
-      ],
-      "async": false
-    },
-    "/Users/harsh/Desktop/projects/SIHH/cinema/components/movie/checkout.tsx": {
-      "id": "(app-client)/./components/movie/checkout.tsx",
-      "name": "*",
-      "chunks": [
-        "app/(app)/movie/[slug]/page:static/chunks/app/(app)/movie/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/harsh/Desktop/projects/SIHH/cinema/components/movie/movie-container.tsx": {
-      "id": "(app-client)/./components/movie/movie-container.tsx",
-      "name": "*",
-      "chunks": [
-        "app/(app)/movie/[slug]/page:static/chunks/app/(app)/movie/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/harsh/Desktop/projects/SIHH/cinema/components/movie/movie-header.tsx": {
-      "id": "(app-client)/./components/movie/movie-header.tsx",
-      "name": "*",
-      "chunks": [
-        "app/(app)/movie/[slug]/page:static/chunks/app/(app)/movie/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/harsh/Desktop/projects/SIHH/cinema/lib/revalidate.ts": {
-      "id": "(app-client)/./lib/revalidate.ts",
-      "name": "*",
-      "chunks": [
-        "app/(app)/movie/[slug]/page:static/chunks/app/(app)/movie/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/harsh/Desktop/projects/SIHH/cinema/node_modules/next/dist/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/(app)/movie/[slug]/page:static/chunks/app/(app)/movie/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/harsh/Desktop/projects/SIHH/cinema/node_modules/next/dist/esm/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/(app)/movie/[slug]/page:static/chunks/app/(app)/movie/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/harsh/Desktop/projects/SIHH/cinema/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-      "name": "*",
-      "chunks": [
-        "app/(app)/movie/[slug]/page:static/chunks/app/(app)/movie/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/harsh/Desktop/projects/SIHH/cinema/node_modules/next/dist/esm/shared/lib/lazy-dynamic/dynamic-no-ssr.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-      "name": "*",
-      "chunks": [
-        "app/(app)/movie/[slug]/page:static/chunks/app/(app)/movie/[slug]/page.js"
-      ],
-      "async": false
     }
   },
   "entryCSSFiles": {
-    "/Users/harsh/Desktop/projects/SIHH/cinema/app/(app)/layout": {
+    "/Users/harsh/Desktop/projects/SIHH/cinema/app/@modal/default": {
       "modules": [],
       "files": []
     },
-    "/Users/harsh/Desktop/projects/SIHH/cinema/app/@modal/default": {
+    "/Users/harsh/Desktop/projects/SIHH/cinema/app/(app)/page": {
+      "modules": [],
+      "files": []
+    },
+    "/Users/harsh/Desktop/projects/SIHH/cinema/app/(app)/layout": {
       "modules": [],
       "files": []
     },
@@ -405,14 +297,6 @@
       "files": [
         "static/css/app/layout.css"
       ]
-    },
-    "/Users/harsh/Desktop/projects/SIHH/cinema/app/(app)/page": {
-      "modules": [],
-      "files": []
-    },
-    "/Users/harsh/Desktop/projects/SIHH/cinema/app/(app)/movie/[slug]/page": {
-      "modules": [],
-      "files": []
     }
   }
 }
