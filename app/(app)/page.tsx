@@ -86,7 +86,7 @@ export default async function Home() {
         </div>
       </div>
       <header className="mx-auto max-w-2xl mt-16 px-4 py-4 sm:px-6 lg:max-w-7xl lg:px-8">
-        <h1 className="text-2xl font-bold">Select movie to watch</h1>
+        <h1 className="text-2xl font-bold">Popular museums in Chennai</h1>
       </header>
       <MoviesContainer movies={movies} />
 
